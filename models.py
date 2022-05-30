@@ -78,7 +78,7 @@ class User(db.Model):
 
     header_image_url = db.Column(
         db.Text,
-        default="/static/images/warbler-hero.jpg"
+        default="/static/images/blue_sky.jpg"
     )
 
     bio = db.Column(
