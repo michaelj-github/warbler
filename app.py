@@ -217,6 +217,7 @@ def profile():
     # IMPLEMENT THIS
 
 
+
 @app.route('/users/delete', methods=["POST"])
 def delete_user():
     """Delete user."""
