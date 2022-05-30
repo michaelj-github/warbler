@@ -116,9 +116,9 @@ def logout():
     """Handle logout of user."""
     # pdb.set_trace()
     # IMPLEMENT THIS
-    session.pop(CURR_USER_KEY)
-    flash("Goodbye!", "info")
-    return redirect('/')
+    do_logout()
+    flash("Goodbye! Thanks for using warbler.", 'success')
+    return redirect("/login")
 
 ##############################################################################
 # General user routes:
